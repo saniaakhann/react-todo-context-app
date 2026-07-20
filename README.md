@@ -96,3 +96,6 @@ GitHub: https://github.com/your-username
 ---
 
 If you found this project helpful, feel free to ⭐ the repository!
+## 📸 Preview
+
+![Todo App](./image/screenshot.png)
