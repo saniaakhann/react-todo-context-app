@@ -1,16 +1,98 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Todo App
 
-Currently, two official plugins are available:
+A modern and responsive Todo application built with **React**, **Context API**, and **Local Storage**. This project allows users to manage their daily tasks with persistent storage, ensuring that todos remain available even after refreshing the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as completed/incomplete
+- 💾 Persistent storage using Local Storage
+- ⚡ Fast development with Vite
+- 📱 Responsive and clean user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Context API
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+src/
+├── assets/
+├── contexts/
+│   └── TodoContext.jsx
+├── App.jsx
+├── TodoForm.jsx
+├── TodoItem.jsx
+├── index.css
+└── main.jsx
+```
+
+## 📸 Preview
+
+<img width="800" alt="Todo App Preview" src="https://via.placeholder.com/800x400?text=Add+Your+Project+Screenshot+Here">
+
+> Replace the placeholder image with a screenshot of your application.
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-todo-context-app.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd react-todo-context-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🎯 Learning Outcomes
+
+This project helped me learn:
+
+- React Context API
+- State management
+- Props and component composition
+- Local Storage integration
+- React Hooks
+- Project structure using Vite
+
+## 🌟 Future Improvements
+
+- Dark Mode
+- Due Dates
+- Categories
+- Drag and Drop
+- Search & Filter
+- Backend integration
+
+## 👩‍💻 Author
+
+**Sania Khan**
+
+GitHub: https://github.com/your-username
+
+---
+
+If you found this project helpful, feel free to ⭐ the repository!
